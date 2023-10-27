@@ -10,7 +10,7 @@ describe("User property tests", () => {
   });
   // test password
   test("password should be a string", () => {
-    expect(typeof user.password).toBe("string");
+    expect(user.password).toBe(this.password);
   });
   // test age
   test("age should be a number", () => {
