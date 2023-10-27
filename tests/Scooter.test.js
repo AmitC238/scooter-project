@@ -1,7 +1,7 @@
 const Scooter = require("../src/Scooter");
 const User = require("../src/User");
 
-const scooter = new Scooter("Hounslow", User, 5932, 80, false);
+const scooter = new Scooter("Bond Street", User, 5932, 80, false);
 
 //typeof scooter === object
 describe("scooter object", () => {
